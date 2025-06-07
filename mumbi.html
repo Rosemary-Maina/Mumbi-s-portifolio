@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Virtual Assistant Portfolio - Rosemary Maina</title>
+    <link rel="stylesheet" href="./css/mumbi.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-ZqAB+...etc..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="navItem">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+        </ul>
+
+        <div class="logo">
+          <p>Rosemary Maina</p>
+        </div>
+
+        <ul class="navItem">
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#Testimonies">Testimonies</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+  <div class="hero-card">
+    <h1>Hello, I am Rosemary <br> Your Business Support Assistant<br /> and your growth partner</h1>
+    <p>
+      I help businesses manage emails, schedule appointments, generate leads,<br />
+      engage with clients, and keep their day running smoothly.
+    </p>
+    <button onclick="handleClick('about')">Get in Touch</button>
+  </div>
+</section>
+    <section id="about">
+      <div class="card2 center-text">
+        <div class="card2a">
+          <p>ABOUT ME</p>
+          <h1> I help business stay organized and save time. </h1>
+
+          <p class="p">
+      <p> Over the past one year i have been helping business owners drowning in emails, missing appointments, or in chasing cold leads. I help in streamlining their daily operations,bringing order in ther inbox, keeping their calendar on track, and helping them connect with the right clients. 
+</p>
+     <button onclick="handleClick('contact')">see more </button>
+        </div>
+        <div class="card2b">
+          <img src="../Images/businesswoman.jpg" alt="Rosemary Maina - Virtual Assistant" />
+        </div>
+      </div>
+    </section>
+   <section id="services">
+  <!-- Top Section -->
+  <div class="card3 center-text">
+    <p class="card3p"> MY SERVICES</p>
+    <h1>Turn Admin Overload Into Efficient<br> Organized Productivity.</h1>
+    <p class="card3description" style="font-size: 28px;
+  color: #2c2c2c;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* add any desired font */
+"> 
+      I help busy professionals manage their schedules,emails,generate more leads for their business and engage with their customers<br>
+      this helps them save more time to spend with their families and focus on other ways to grow their organizations, dont be overwhelmed iam here to help.
+    </p>
+  </div>
+
+  <!-- Bottom Two Cards: Side by Side -->
+  <div class="card4">
+    <!-- Left Card -->
+    <div class="card4a">
+      <div class="text">
+        <h1>Email & Calendar<br />Management</h1>
+        <p>I keep your inbox organized, schedule meetings seamlessly, and ensure you never miss a key appointment.</p>
+        <button onclick="handleClick('contact')">Book a Service</button>
+      </div>
+      <img class="decorative" src="../Images/email-3249062_640.png" alt="Email Illustration" />
+    </div>
+
+    <!-- Right Card -->
+    <div class="card4b">
+      <div class="text">
+        <h1>Lead Generation & <br />Customer Support</h1>
+        <p>I help you attract potential clients and provide professional support to keep them engaged and satisfied.</p>
+        <button onclick="handleClick('contact')">Hire Me</button>
+      </div>
+    </div>
+  </div>
+</section>
+    <section id="va-support" class="va-support-section">
+  <div class="va-support-container">
+    <!-- Left side: text + button -->
+    <div class="va-text">
+      <h1>Enjoy Personalized Support</h1>
+      <p>
+       Behind every succesful business there is great support.<br> I help businesses save time and scale faster taking care of the admin tasks that hold you back. Let's build momentum together,through my tailored assistance to help you stay organized, reduce stress, and reclaim your time.<br> I will help you thrive professionally and personally.
+      </p>
+      <button onclick="handleClick('contact')" class="va-btn">Work with Me</button>
+    </div>
+
+    <!-- Right side: animation -->
+    <div class="va-animation">
+      <lottie-player 
+        src="https://assets9.lottiefiles.com/packages/lf20_jcikwtux.json" 
+        background="transparent"  
+        speed="1"  
+        style="width: 100%; max-width: 400px;"  
+        loop  
+        autoplay>
+      </lottie-player>
+    </div>
+  </div>
+</section>
+<!-- Lottie player script -->
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+  <section class="testimonies-section">
+  <!-- Upper Section: Testimonies -->
+  <div class="testimonies-upper">
+    <!-- Left Info Section -->
+    <div class="testimony-info">
+      <h1>Testimonies</h1>
+      <h2>What Clients Are Saying</h2>
+      <p>
+        I’ve had the pleasure of working with some amazing clients<br> Here’s what they have to say about their experience with me<br>Your satisfaction is my priority, and your feedback motivates me to deliver the best virtual assistance.
+      </p>
+      <div class="arrow-controls">
+        <button class="arrow left">&#8592;</button>
+        <button class="arrow right">&#8594;</button>
+      </div>
+    </div>
+
+    <!-- Testimony Card 1 -->
+    <div class="testimony-card">
+      <p>
+        “My inbox used to be a disaster until Rosemary took over. She organizes, filters, and responds with clarity and professionalism<br>I finally feel in control of my emails again.”
+      </p>
+      <h3>— Daniel Njoroge, CEO, Harvest Creatives</h3>
+    </div>
+
+    <!-- Testimony Card 2 -->
+    <div class="testimony-card">
+      <p>
+        “ Rosemary’s approach to customer support is warm, prompt, and professional<br>Our clients always feel heard and cared for. We've seen a noticeable boost in client retention and satisfaction."
+      </p>
+      <h3>— Brian Mwangi, Customer Experience Lead, Zuri Brands</h3>
+    </div>
+  </div>
+
+  <!-- Lower Section: Tools I Use -->
+  <div class="tools-section">
+    <h1>Tools I Use</h1>
+    <div class="tools-grid">
+      <!-- Row 1 -->
+      <div class="tool-item"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Gmail"><span>Gmail</span></div>
+      <div class="tool-item"><img src="https://cdn-icons-png.flaticon.com/512/906/906334.png" alt="Google Calendar"><span>Google Calendar</span></div>
+      <div class="tool-item"><img src="https://cdn-icons-png.flaticon.com/512/888/888879.png" alt="Zoom"><span>Zoom</span></div>
+      <div class="tool-item"><img src="https://cdn-icons-png.flaticon.com/512/2504/2504941.png" alt="Slack"><span>Slack</span></div>
+      <div class="tool-item"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968865.png" alt="Trello"><span>Trello</span></div>
+      <div class="tool-item"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111615.png" alt="Asana"><span>Asana</span></div>
+      <div class="tool-item"><img src="https://cdn-icons-png.flaticon.com/512/888/888879.png" alt="Calendly"><span>Calendly</span></div>
+      <div class="tool-item"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="Hubspot"><span>Hubspot</span></div>
+      <div class="tool-item"><img src="https://cdn-icons-png.flaticon.com/512/408/408707.png" alt="Capcut"><span>Capcut</span></div>
+
+      <!-- Row 2 -->
+      <div class="tool-item"><img src="https://cdn-icons-png.flaticon.com/512/5612/5612838.png" alt="ClickUp"><span>ClickUp</span></div>
+      <div class="tool-item"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" alt="Canva"><span>Canva</span></div>
+      <div class="tool-item"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="Outlook"><span>Outlook</span></div>
+      <div class="tool-item"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111656.png" alt="Notion"><span>Notion</span></div>
+      <div class="tool-item"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968700.png" alt="Excel"><span>Excel</span></div>
+      <div class="tool-item"><img src="https://cdn-icons-png.flaticon.com/512/888/888841.png" alt="Google Docs"><span>Google Docs</span></div>
+      <div class="tool-item"><img src="https://cdn-icons-png.flaticon.com/512/5612/5612811.png" alt="Loom"><span>Loom</span></div>
+      <div class="tool-item"><img src="https://cdn-icons-png.flaticon.com/512/888/888879.png" alt="Zoom Scheduler"><span>Zoom Scheduler</span></div>
+      <div class="tool-item"><img src="https://cdn-icons-png.flaticon.com/512/1051/1051326.png" alt="Google Sheets"><span>Google Sheets</span></div>
+    </div>
+  </div>
+</section>
+
+
+<section class="card-8">
+  <div class="portfolio-text">
+    <h2>Portfolio</h2>
+    <h1>Completed Projects That <br>Reflect My Skills and Expertise</h1>
+    <p><p>
+  Explore a few projects I've handled in email marketing, lead generation, calendar and email management.
+  Each project showcases practical skills and real-world solutions. <br> They include executing high-converting campaigns, 
+  organizing executive schedules. <br> They are a reflection of my reliability.
+</p>
+</p>
+  </div>
+  <div class="portfolio-cards">
+    <div class="card">
+      <img src="../Images/Email campaign.jpg" alt="Email Marketing Campaign">
+      <button class="btn-blue">View Email Campaign</button>
+    </div>
+    <div class="card">
+      <img src="../Images/Calendar mngnt.jpg" alt="Calendar Management">
+      <button class="btn-green">See Calendar Task</button>
+    </div>
+    <div class="card">
+      <img src="../Images/Lead generation.jpeg" alt="Lead Generation Report">
+      <button class="btn-pink">Check Leads</button>
+    </div>
+    <div class="card">
+      <img src="../Images/Gmail management.jpg" alt="Email Management">
+      <button class="btn-orange">Email Samples</button>
+    </div>
+  </div>
+</section>
+<section class="card-9">
+  <div class="card-9-left">
+    <h5>Certifications</h5>
+    <h1> Proof Of Exellence in Virtual Assistance</h1>
+    <p>I have successfully completed professional training programs that prove my expertise in Virtual Assistance.<br> Specifically in email and calendar management, customer support, and lead generation. <br>These certifications demonstrate my commitment to delivering top-tier support to every client I work with.</p>
+    <button class="join-btn">Hire Me</button>
+  </div>
+
+  <div class="card-9-right">
+    <div class="certificate-wrapper">
+      <img src="../Images/AlxCertificate.jpeg" alt="Certification 1">
+      <img src="../Images/Alison VA certificate.jpg" alt="Certification 2">
+    </div>
+  </div>
+</section>
+<section class="faq-container">
+  <div class="faq-section">
+  <!-- Top Section -->
+  <div class="faq-top">
+    <!-- Left Side -->
+    <div class="faq-left">
+      <small>FAQ</small>
+      <h2>Frequently Asked Questions</h2>
+      <p>Here are answers to some of the questions I get asked the most as a Virtual Assistant.</p>
+      <img src="../Images/cusutomersupport.jpg" alt="Smiley Face" class="smiley-image" />
+    </div>
+
+    <!-- Right Side -->
+    <div class="faq-right">
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What services do you offer? <span class="toggle-icon">+</span>
+        </button>
+        <div class="faq-answer" hidden>
+          I offer email marketing campaigns, calendar management, lead generation, and email management.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          How can I hire you? <span class="toggle-icon">+</span>
+        </button>
+        <div class="faq-answer" hidden>
+          You can contact me via the portfolio’s contact form or send me an email directly.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What tools do you use? <span class="toggle-icon">+</span>
+        </button>
+        <div class="faq-answer" hidden>
+          I work with Google Suite, CRM platforms, Excel, and various email marketing tools.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Can you manage my calendar and appointments? <span class="toggle-icon">+</span>
+        </button>
+        <div class="faq-answer" hidden>
+          Absolutely! I’m skilled at keeping calendars organized and managing appointments efficiently.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Do you provide reports on lead generation? <span class="toggle-icon">+</span>
+        </button>
+        <div class="faq-answer" hidden>
+          Yes, I provide detailed lead generation reports to help track progress and results.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What are your working hours? <span class="toggle-icon">+</span>
+        </button>
+        <div class="faq-answer" hidden>
+          I am flexible but usually available Monday to Friday, 9 AM to 6 PM (GMT).
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Section -->
+  <div class="faq-bottom">
+    <h2>I am here to help you grow your business</h2>
+    <h3>Let’s scale your success together</h3>
+    <p>Reach out anytime for personalized virtual assistance tailored to your needs.</p>
+  </div>
+</section>
+<section class="contact-section">
+  <div class="contact-container">
+    
+    <!-- LEFT -->
+    <div class="contact-left">
+      <h1>Contact Details</h1>
+      <p><strong>Email:</strong> reliablevirtualassistant058@gmail.com</p>
+      <p><strong>Phone:</strong> 0796369547</p>
+      <p><strong>Address:</strong> Mirema, Kamiti Road<br>Nairobi,Kenya<br>P.O Box 00100,Nairobi </p>
+      <div class="social-icons">
+        <i class="fab fa-whatsapp"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook"></i>
+      </div>
+     <p class="response-time">I will respond within 2hrs</p>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="contact-right">
+      <h1 class="right-heading">Send me a message</h1>
+      
+      <div class="form-wrapper">
+        <form class="form-container">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your Message"></textarea>
+          </div>
+          <button type="submit" class="send-btn">Send Me a Message</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section class="footer">
+  <!-- LEFT SIDE -->
+  <div class="footer-left">
+    <h1>My Portfolio</h1>
+    <div class="footer-content">
+      <div class="footer-column">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Testimonies</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="footer-column">
+        <a href="#">TikTok</a>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+      </div>
+      <div class="footer-column">
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </div>
+    <p class="footer-copy">© 2025 My Portfolio. All rights reserved.</p>
+  </div>
+
+  <!-- RIGHT SIDE -->
+  <div class="footer-right">
+    <div class="right-content">
+      <!-- Text -->
+      <div class="text-column">
+        <h1>
+          Save time and do more!! <br>
+          I organize<br>
+          simplify<br>
+          and support your business growth.
+        </h1>
+      </div>
+
+      <!-- Image -->
+      <div class="image-column">
+        <img src="../Images/customer suppor.jpg" alt="Laptop" class="main-image" />
+      </div>
+    </div>
+
+    <!-- Centered Button -->
+    <div class="button-wrapper">
+      <button class="footer-btn">Work With Me</button>
+    </div>
+  </div>
+</section>
+<script src="./js/main.js"></script>
+</body>
+</html>
+
